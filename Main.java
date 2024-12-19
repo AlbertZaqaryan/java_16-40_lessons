@@ -230,6 +230,55 @@ public class Main {
 //        }
 //        System.out.println(map1.equals(map2));
         // -------------------------------------------------------------------------------
+//        ArrayList<Integer> arr = new ArrayList<>();
+//        arr.add(2);
+//        arr.add(0);
+//        arr.add(3);
+//        arr.add(0);
+//        arr.add(0);
+//        arr.add(0);
+//        arr.add(6);
+//        System.out.println(arr);
+//        [2, 3, 6, 0, 0, 0, 0]
+//        for(int i = arr.size() - 1; i >= 0; i --){
+//            if(arr.get(i) == 0){
+//                arr.add(arr.get(i));
+//                arr.remove(arr.get(i));
+//            }
+//        }
+//        System.out.println(arr);
+        // -------------------------------------------------------------------------------
+//        int year = scan.nextInt();
+//        int month = scan.nextInt();
+//        int day = scan.nextInt();
+//        int[] days = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+//        if(year % 4 == 0){
+//            days[1] = 29;
+//        }
+//        int sum = 0;
+//        for(int i = 0; i < month - 1; i ++){
+//            sum += days[i];
+//        }
+//        sum += day;
+//        System.out.println(sum);
+
+//        2024  75
+//        2024  3  15
+        // -------------------------------------------------------------------------------
+//        int year = scan.nextInt();
+//        int day = scan.nextInt();
+//        int[] days = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+//        if(year % 4 == 0){
+//            days[1] = 29;
+//        }
+//        int month = 0;
+//        while(days[month] < day){
+//            day -= days[month];
+//            month ++;
+//        }
+//        month ++;
+//        System.out.println(year + " : " + month + " : " + day);
+        // -------------------------------------------------------------------------------
 
     }
 }
